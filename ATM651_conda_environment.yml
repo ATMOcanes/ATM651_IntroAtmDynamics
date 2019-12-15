@@ -1,7 +1,6 @@
 name: ATM651
 channels:
   - conda-forge
-  - pyviz
   - defaults
 dependencies:
    - python=3
@@ -9,11 +8,11 @@ dependencies:
    - matplotlib
    - cartopy
    - jupyter
+   - rise
    - netcdf4
    - owslib
    - metpy
    - pint
-   - shapely
    - siphon
    - xarray
    - fastparquet
@@ -21,8 +20,6 @@ dependencies:
    - fsspec
    - pip
    - ffmpeg
-   - pytest
    - pip:
-     - mpldatacursor
      - ipyidv
      - mseplots-pkg
